@@ -1,5 +1,7 @@
 In this repository you can find a fully configured project for simple, old-school game development using Java and the bindings for Raylib (https://www.raylib.com/).
 
+Bindings included in this: https://github.com/electronstudio/jaylib/
+
 ![Preview](boilerplate-project/readme.jpg)
 
 ## Pre-requisites
@@ -8,6 +10,8 @@ In this repository you can find a fully configured project for simple, old-schoo
 - Maven 3.6
 
 or newer
+
+Help on my blog: <a href="https://www.kodenkel.com/how-to/java-jdk-maven-installation-windows" target="_blank">How To Install the Java JDK and Maven on Windows</a>
 
 ## Package and Test
 

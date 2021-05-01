@@ -33,6 +33,8 @@ To run the built jar manually:
 java -jar game.jar
 ````
 
+Or just double click on the jar!
+
 ## Main Class
 
 The main class in the boilerplate project simply contains the default demo source of Raylib.

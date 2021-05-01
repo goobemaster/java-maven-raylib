@@ -39,4 +39,4 @@ The main class in the boilerplate project simply contains the default demo sourc
 
 src/main/java/com/kodenkel/game/Application.java
 
-Don't forget to update the Maven configuration (pom.xml) as well as paths to reflect your own preferred package names. **Do not use "com.kodenkel.game"!**
+Don't forget to update the Maven configuration (pom.xml) as well as paths to reflect your own preferred package names. **Do not use "com.kodenkel.game" in your own projects!**

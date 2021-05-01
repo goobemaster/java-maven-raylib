@@ -4,8 +4,10 @@ In this repository you can find a fully configured project for simple, old-schoo
 
 ## Pre-requisites
 
->= Java 1.8
->= Maven 3.6
+Java 1.8
+Maven 3.6
+
+or newer
 
 ## Package and Test
 

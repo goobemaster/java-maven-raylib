@@ -9,7 +9,7 @@ Pad playerHuman = new Pad(Player.HUMAN, Side.LEFT, WINDOW_WIDTH, WINDOW_HEIGHT);
 Pad playerComputer = new Pad(Player.COMPUTER, Side.RIGHT, WINDOW_WIDTH, WINDOW_HEIGHT);
 ````
 
-![Preview](games/pong/readme.jpg)
+![Preview](readme.jpg)
 
 ## Pre-requisites
 

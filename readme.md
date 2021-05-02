@@ -40,3 +40,16 @@ The main class in the boilerplate project simply contains the default demo sourc
 src/main/java/com/kodenkel/game/Application.java
 
 Don't forget to update the Maven configuration (pom.xml) as well as paths to reflect your own preferred package names. **Do not use "com.kodenkel.game"!**
+
+## Example Game: Pong
+
+See the project in the games/pong sub-directory. This is a **very rudimentary** Pong clone.
+
+Use the up/down keys to move the paddle. See the Application class to switch sides, or set which players are controlled by who, e.g.:
+
+````
+Pad playerHuman = new Pad(Player.HUMAN, Side.LEFT, WINDOW_WIDTH, WINDOW_HEIGHT);
+Pad playerComputer = new Pad(Player.COMPUTER, Side.RIGHT, WINDOW_WIDTH, WINDOW_HEIGHT);
+````
+
+![Preview](games/pong/readme.jpg)

@@ -1,13 +1,8 @@
-## Example Game: Pong
+## Example Game: Breakout
 
-This is a **very rudimentary** Pong clone.
+This is a **very rudimentary** Breakout clone.
 
-Use the up/down keys to move the paddle. See the Application class to switch sides, or set which players are controlled by who, e.g.:
-
-````
-Pad playerHuman = new Pad(Player.HUMAN, Side.LEFT, WINDOW_WIDTH, WINDOW_HEIGHT);
-Pad playerComputer = new Pad(Player.COMPUTER, Side.RIGHT, WINDOW_WIDTH, WINDOW_HEIGHT);
-````
+Use the mouse (slide it side to side) to move the paddle.
 
 ![Preview](readme.jpg)
 

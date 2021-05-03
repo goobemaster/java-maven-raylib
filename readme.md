@@ -4,6 +4,8 @@ Bindings included in this: https://github.com/electronstudio/jaylib/
 
 ![Preview](boilerplate-project/readme.jpg)
 
+Now includes two example games as well: Pong, Breakout.
+
 ## Pre-requisites
 
 - Java 1.8
@@ -55,3 +57,11 @@ Pad playerComputer = new Pad(Player.COMPUTER, Side.RIGHT, WINDOW_WIDTH, WINDOW_H
 ````
 
 ![Preview](games/pong/readme.jpg)
+
+## Example Game: Breakout
+
+See the project in the games/breakout sub-directory. This is a **very rudimentary** Breakout clone.
+
+Use the mouse (slide it side to side) to move the paddle.
+
+![Preview](games/breakout/readme.jpg)

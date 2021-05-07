@@ -65,3 +65,13 @@ See the project in the games/breakout sub-directory. This is a **very rudimentar
 Use the mouse (slide it side to side) to move the paddle.
 
 ![Preview](games/breakout/readme.jpg)
+
+## Example Game: Scorched
+
+See the project in the games/scorched sub-directory. This is a **very rudimentary** Scorched Earth clone.
+
+Your objective is eliminating the opposing tank. The first tank to blow up the other tank is the winner.
+
+Use the arrow keys to set the angle of the turret, and the speed of the missile.
+
+![Preview](games/scorched/readme.jpg)

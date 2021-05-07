@@ -32,5 +32,5 @@ The resulting jar will be executable and include all dependencies (so called "fa
 To run the built jar manually:
 
 ````
-java -jar game.jar
+java -jar kodenkel-breakout.jar
 ````

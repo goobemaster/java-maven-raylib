@@ -1,13 +1,10 @@
-## Example Game: Pong
+## Example Game: Scorched
 
-This is a **very rudimentary** Pong clone.
+This is a **very rudimentary** Scorched Earth clone.
 
-Use the up/down keys to move the paddle. See the Application class to switch sides, or set which players are controlled by who, e.g.:
+Your objective is eliminating the opposing tank. The first tank to blow up the other tank is the winner.
 
-````
-Pad playerHuman = new Pad(Player.HUMAN, Side.LEFT, WINDOW_WIDTH, WINDOW_HEIGHT);
-Pad playerComputer = new Pad(Player.COMPUTER, Side.RIGHT, WINDOW_WIDTH, WINDOW_HEIGHT);
-````
+Use the arrow keys to set the angle of the turret, and the speed of the missile.
 
 ![Preview](readme.jpg)
 
@@ -37,5 +34,5 @@ The resulting jar will be executable and include all dependencies (so called "fa
 To run the built jar manually:
 
 ````
-java -jar kodenkel-pong.jar
+java -jar kodenkel-scorched.jar
 ````

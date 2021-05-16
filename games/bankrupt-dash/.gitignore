@@ -1,0 +1,7 @@
+*.txt
+*.xcf
+*.ods
+target
+dev
+game.jar
+high.scr

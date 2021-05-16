@@ -75,3 +75,15 @@ Your objective is eliminating the opposing tank. The first tank to blow up the o
 Use the arrow keys to set the angle of the turret, and the speed of the missile.
 
 ![Preview](games/scorched/readme.jpg)
+
+## Example Game: Bankrupt Dash
+
+This is a Boulder Dash like game.
+
+You are a green alien on the verge of bankruptcy, so you began mining for diamonds throughout the galaxy.
+
+Explore what lies deep inside the crust of 5 different planets. Beware of the red alien beasts.
+
+Press F2 in-game to see the detailed rules.
+
+![Preview](games/bankrupt-dash/readme.jpg)

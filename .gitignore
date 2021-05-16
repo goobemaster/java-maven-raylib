@@ -1,0 +1,9 @@
+*.txt
+target
+dev
+game.jar
+wip_*/
+.settings
+.classpath
+.project
+.vscode

@@ -11,7 +11,7 @@ public class Application {
     private static final int WINDOW_WIDTH = 640;
     private static final int WINDOW_HEIGHT = 480;
     private static final int LOCKED_FPS = 60;
-    private static final String JAR_PATH = System.getProperty("user.dir") + "/src/main/resources/";
+    private static final String JAR_PATH = System.getProperty("user.dir") + "/src/main/resources/bankrupt-dash/";
     public static final ResourceLoader RESOURCE_LOADER = new ResourceLoader(JAR_PATH);
 
     private static GameState STATE;

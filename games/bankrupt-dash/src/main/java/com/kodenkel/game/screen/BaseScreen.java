@@ -15,6 +15,7 @@ import com.kodenkel.game.ResourceLoader;
 
 public abstract class BaseScreen implements GameScreen {
     ResourceLoader resource;
+    private boolean volumeControlAvailable;
 
     public BaseScreen(ResourceLoader resource) {
         this.resource = resource;
@@ -30,6 +31,7 @@ public abstract class BaseScreen implements GameScreen {
         if (state.equals(GameState.BOOT)) Application.changeState(GameState.TITLE);
 
         // Sound
+        if (!this.volumeControlAvailable) return;
         if (IsKeyPressed(KEY_F1)) data.toggleSound();
         FloatControl volume;
         // TODO: test it on Win and Mac. May break (ALSA requires different value).
@@ -38,8 +40,10 @@ public abstract class BaseScreen implements GameScreen {
             try {
                 volume = (FloatControl) clip.getControl(Type.VOLUME);
                 volume.setValue(setVolume);
+                this.volumeControlAvailable = true;
             } catch (Exception e) {
                 e.printStackTrace();
+                this.volumeControlAvailable = false;
             }
         }
     }

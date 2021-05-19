@@ -32,7 +32,7 @@ public class Tank {
         this.posY = ground.getAbsoluteElevationAt(posX) - HEIGHT - 1;
         this.turretAngle = turretAngle;
         this.power = 25.0f;
-        Image tankBodyImage = LoadImage("src/main/resources/tank_" + tankColor.toString().toLowerCase() + ".png");
+        Image tankBodyImage = LoadImage("src/main/resources/scorched/tank_" + tankColor.toString().toLowerCase() + ".png");
         tankBodyTexture = LoadTextureFromImage(tankBodyImage);
         UnloadImage(tankBodyImage);
     }

@@ -4,7 +4,11 @@ Bindings included in this: https://github.com/electronstudio/jaylib/
 
 ![Preview](boilerplate-project/readme.jpg)
 
-Now includes two example games as well: Pong, Breakout.
+Now includes four example games as well: Pong, Breakout, Scorched, Bankrupt Dash !
+
+If you like this project, or found it useful:
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/kodenkel)
 
 ## Pre-requisites
 
